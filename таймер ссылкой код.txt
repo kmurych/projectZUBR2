@@ -1,0 +1,27 @@
+<div class="preview-block">
+        <div class="switch-background">
+            <div class="switch-background-button white"></div>
+            <div class="switch-background-button black"></div>
+        </div>
+
+        <div class="switch-elements">
+            <!--<div class="switch-title">Подписи:</div>-->
+            <div class="">
+                <label><input type="checkbox" name="view[0]" checked="checked"> дни</label>
+            </div>
+            <div class="">
+                <label><input type="checkbox" name="view[1]" checked="checked"> часы</label>
+            </div>
+            <div class="">
+                <label><input type="checkbox" name="view[2]" checked="checked"> минуты</label>
+            </div>
+            <div class="">
+                <label><input type="checkbox" name="view[3]" checked="checked"> секунды</label>
+            </div>
+        </div>
+        <div class="timerPreviewContainer">
+            <div class="timerPreviewWrapper">
+                <div id="timerPreview" style="text-align: center; display: table; margin: 0px auto;"><span class="timer-element" id="timer-element-Preview-days" style="display: table-cell; line-height: 1; margin: 0px; position: relative; width: 152px; height: 152px; vertical-align: middle;"><span id="timer-number-Preview-days" style="display: inline-block; line-height: 1; margin: 0px; font-size: 61px; color: rgb(255, 255, 255); font-family: &quot;Poiret One&quot;;"><span id="timer-number-value-Preview-days">10</span></span><span id="timer-text-Preview-days" style="display: block; line-height: 1; margin: 0px; font-size: 29px; color: rgb(255, 255, 255); font-family: &quot;Poiret One&quot;;">дней</span><span><canvas id="timer-canvas-Preview-days" width="152" height="152" style="position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px;"></canvas></span></span><span class="timer-separator" id="timer-separator-Preview-hours" style="display: table-cell; vertical-align: middle; line-height: 1; margin: 0px; padding: 0px 33px; font-size: 61px; color: rgb(255, 255, 255); font-family: &quot;Poiret One&quot;; height: 152px;"></span><span class="timer-element" id="timer-element-Preview-hours" style="display: table-cell; line-height: 1; margin: 0px; position: relative; width: 152px; height: 152px; vertical-align: middle;"><span id="timer-number-Preview-hours" style="display: inline-block; line-height: 1; margin: 0px; font-size: 61px; color: rgb(255, 255, 255); font-family: &quot;Poiret One&quot;;"><span id="timer-number-value-Preview-hours">7</span></span><span id="timer-text-Preview-hours" style="display: block; line-height: 1; margin: 0px; font-size: 29px; color: rgb(255, 255, 255); font-family: &quot;Poiret One&quot;;">часов</span><span><canvas id="timer-canvas-Preview-hours" width="152" height="152" style="position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px;"></canvas></span></span><span class="timer-separator" id="timer-separator-Preview-minutes" style="display: table-cell; vertical-align: middle; line-height: 1; margin: 0px; padding: 0px 33px; font-size: 61px; color: rgb(255, 255, 255); font-family: &quot;Poiret One&quot;; height: 152px;"></span><span class="timer-element" id="timer-element-Preview-minutes" style="display: table-cell; line-height: 1; margin: 0px; position: relative; width: 152px; height: 152px; vertical-align: middle;"><span id="timer-number-Preview-minutes" style="display: inline-block; line-height: 1; margin: 0px; font-size: 61px; color: rgb(255, 255, 255); font-family: &quot;Poiret One&quot;;"><span id="timer-number-value-Preview-minutes">40</span></span><span id="timer-text-Preview-minutes" style="display: block; line-height: 1; margin: 0px; font-size: 29px; color: rgb(255, 255, 255); font-family: &quot;Poiret One&quot;;">минут</span><span><canvas id="timer-canvas-Preview-minutes" width="152" height="152" style="position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px;"></canvas></span></span><span class="timer-separator" id="timer-separator-Preview-secundes" style="display: table-cell; vertical-align: middle; line-height: 1; margin: 0px; padding: 0px 33px; font-size: 61px; color: rgb(255, 255, 255); font-family: &quot;Poiret One&quot;; height: 152px;"></span><span class="timer-element" id="timer-element-Preview-secundes" style="display: table-cell; line-height: 1; margin: 0px; position: relative; width: 152px; height: 152px; vertical-align: middle;"><span id="timer-number-Preview-secundes" style="display: inline-block; line-height: 1; margin: 0px; font-size: 61px; color: rgb(255, 255, 255); font-family: &quot;Poiret One&quot;;"><span id="timer-number-value-Preview-secundes">31</span></span><span id="timer-text-Preview-secundes" style="display: block; line-height: 1; margin: 0px; font-size: 29px; color: rgb(255, 255, 255); font-family: &quot;Poiret One&quot;;">секунд</span><span><canvas id="timer-canvas-Preview-secundes" width="152" height="152" style="position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px;"></canvas></span></span></div>
+            </div>
+        </div>
+    </div>

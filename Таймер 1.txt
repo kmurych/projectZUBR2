@@ -1,0 +1,6 @@
+<ul>
+  <li class="chart" data-percent="75"><span>26</span>Jours</li>
+  <li class="chart" data-percent="15"><span>15</span>Heures</li>
+  <li class="chart" data-percent="83"><span>50</span>Minutes</li>
+</ul>
+

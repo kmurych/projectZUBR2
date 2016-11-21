@@ -1,0 +1,16 @@
+﻿<button> Click me! </button>
+ <script type ="text/javascript">
+   var button = document.getElementsByTagName("button") [0];
+   button.onclick = function() {
+     alert("Hello, ItPark!");
+	 this.innerHTML = "Кнопка уже была нажата";
+	 this.disabled = true;
+	 };
+	 var div = document.createElement('div');
+  div.className = "alert alert-success";
+  div.innerHTML = "<strong>Ура!</strong> Вы прочитали это важное сообщение.";
+
+  document.body.appendChild(div);
+  
+ </script>
+	   

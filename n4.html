@@ -1,0 +1,52 @@
+ <head> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+</head>
+<body>
+<table id = "proba">
+	 </table>
+	 
+	 <script type = "text/javascript">
+	 
+	  var table = $("#proba");
+	  
+	  
+	  for (var i = 1; i<10; i++)
+	  {
+	  var tr =  $("<tr> </tr>");
+	   for (var j=1; j<10; j++)
+	   {
+	    var td = $("<td> </td>").html(i*j);
+		//td.innerHTML =  i * j;
+		
+		tr.append(td);
+		}
+		table.append(tr);
+		} 
+		</script>
+		
+		<table id = "proba2"> 
+	 </table>
+	 
+	 <script type = "text/javascript">
+	
+	  var table = $("#proba2");
+	  
+	  
+	  for (var i = 1; i<10; i++)
+	  {
+	  var tr =  $("<tr> </tr>");
+	   for (var j=1; j<10; j++)
+	   {
+	    var td = $("<td> </td>").html(Math.pow(i, j));
+		//td.innerHTML =  Math.pow(i, j);
+		
+		tr.append(td);
+		}
+		table.append(tr);
+		} 
+		
+	    
+ </script>
+ </body>
+	   

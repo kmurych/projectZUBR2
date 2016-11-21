@@ -1,0 +1,25 @@
+﻿
+	 <table id = "proba">
+	 </table>
+	 
+	 <script type = "text/javascript">
+	 window.onload = function () {
+	  var table = document.getElementById("proba");
+	  for (var i = 1; i<10; i++)
+	  {
+	  var tr = document.createElement("tr");
+	   for (var j=1; j<10; j++)
+	   {
+	    var td = document.createElement("td");
+		td.innerHTML =  i * j;
+		td.width = "70px";
+		tr.append(td);
+		}
+		table.append(tr);
+		} 
+		
+		}
+		
+	    
+ </script>
+	   
